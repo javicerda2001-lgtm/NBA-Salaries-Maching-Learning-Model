@@ -22,7 +22,7 @@ The project's pipeline is divided into four main modular phases:
    * Merging 25 years of box score statistics (Kaggle/GitHub) with financial metrics (HoopsHype).
    * Filtering statistical noise by establishing a strict playtime threshold ($MP \ge 10$).
    * Implementing feature engineering to combat salary cap inflation via the relative budgetary impact formula:
-     $$\% \text{ Cap} = \frac{\text{Player Salary}}{\text{Season Salary Cap}}$$
+     Impacto presupuestario % Cap = Salario Jugador / Salary cap temporada 
 
 2. **Dimensionality Reduction (PCA):** 
    * Addressing severe multicollinearity (e.g., strong correlations between Minutes Played, Usage Rate, and Points).
