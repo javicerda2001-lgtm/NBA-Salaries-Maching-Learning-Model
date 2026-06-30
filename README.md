@@ -10,6 +10,9 @@ This repository contains the source code and academic framework for the Master's
 ## 📌 Executive Summary
 The modern NBA operates as a highly complex financial ecosystem governed by a soft Salary Cap. However, the labor market exhibits critical inefficiencies due to contracts signed based on subjective perceptions or obsolete positional labels (PG, SG, SF, PF, C). 
 
+<img width="567" height="270" alt="Captura de pantalla 2026-06-30 a las 11 20 03" src="https://github.com/user-attachments/assets/848b5969-ea04-4683-bcda-01eafc2aeaa5" />
+
+
 This project delivers a **Minimum Viable Product (MVP)** consisting of an advanced financial appraisal engine designed to audit and predict the true market value of players. By shifting from nominal dollar salaries to a deflation technique based on **Percentage of the Salary Cap (% Cap)**, the model normalizes 25 years of historical data (2000–2025). Utilizing **Principal Component Analysis (PCA)** and **Unsupervised K-Means Clustering**, the engine segments the league into 4 latent functional roles suited for the *Positionless Basketball* era, removing administrative biases. Finally, a **Random Forest Regressor** achieves a robust **$R^2$ score of 0.73** on temporal validation, identifying deep structural market inefficiencies.
 
 ---
